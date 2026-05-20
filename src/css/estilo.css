@@ -364,3 +364,78 @@ nav ul li a.ativo {
     font-weight: 600;
     text-align: center;
 }
+
+#sobre-main {
+    padding: 120px 60px 80px;
+    min-height: 100vh;
+}
+
+#sobre-hero {
+    margin-bottom: 70px;
+}
+
+#sobre-hero h2 {
+    font-family: var(--fonte-titulo);
+    font-size: 72px;
+    letter-spacing: 2px;
+    line-height: 1;
+    margin-bottom: 16px;
+}
+
+#sobre-hero h2 span {
+    color: var(--ciano);
+}
+
+#sobre-conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    max-width: 800px;
+}
+
+.sobre-bloco h3 {
+    font-family: var(--fonte-titulo);
+    font-size: 32px;
+    letter-spacing: 1px;
+    color: var(--ciano);
+    margin-bottom: 16px;
+}
+
+.sobre-bloco p {
+    color: #bbb;
+    font-size: 16px;
+    line-height: 1.9;
+    margin-bottom: 14px;
+}
+
+.sobre-numeros {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    padding-top: 50px;
+    border-top: 1px solid var(--preto-borda);
+}
+
+.numero-item h3 {
+    font-family: var(--fonte-titulo);
+    font-size: 48px;
+    color: var(--ciano);
+    letter-spacing: 2px;
+}
+
+.numero-item p {
+    color: var(--cinza);
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 4px;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    border-top: 1px solid var(--preto-borda);
+    color: var(--cinza);
+    font-size: 14px;
+}
