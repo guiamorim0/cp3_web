@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@400;500;600;700&display=swap');
+
+:root {
+    --preto: #0d0d0d;
+    --preto-card: #161616;
+    --preto-borda: #222;
+    --ciano: #00e5ff;
+    --ciano-escuro: #00b8cc;
+    --branco: #f0f0f0;
+    --cinza: #888;
+    --fonte-titulo: 'Bebas Neue', sans-serif;
+    --fonte-corpo: 'Barlow', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--preto);
+    color: var(--branco);
+    font-family: var(--fonte-corpo);
+    font-size: 16px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background-color: var(--preto);
+    border-bottom: 1px solid var(--preto-borda);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.logo {
+    font-family: var(--fonte-titulo);
+    font-size: 32px;
+    letter-spacing: 2px;
+}
+
+.logo-volt {
+    color: var(--ciano);
+}
+
+.logo-ride {
+    color: var(--branco);
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+nav ul li a {
+    color: var(--cinza);
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover,
+nav ul li a.ativo {
+    color: var(--ciano);
+}
